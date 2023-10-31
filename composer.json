@@ -2,15 +2,20 @@
     "name": "sparkapi/sparkapi",
     "type": "library",
     "description": "PHP wrapper for the Spark REST API",
-    "keywords": ["spark", "sparkapi"],
+    "keywords": [
+        "spark",
+        "sparkapi"
+    ],
     "homepage": "http://github.com/sparkapi/sparkapi4p2",
     "license": "GPL-3.0",
     "require": {
         "php": ">=5.2.0",
-        "jumbojett/openid-connect-php": "^0.3.0"
+        "jumbojett/openid-connect-php": "^0.9.10"
     },
     "autoload": {
-        "classmap": ["lib/"]
+        "classmap": [
+            "lib/"
+        ]
     },
     "require-dev": {
         "phpunit/phpunit": "^6.5"
